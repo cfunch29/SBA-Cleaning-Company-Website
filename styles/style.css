@@ -10,3 +10,8 @@ body, html {
 *::after {
     box-sizing: inherit;
 }
+
+h1 {
+    display: flex;
+   justify-content: center;
+}
