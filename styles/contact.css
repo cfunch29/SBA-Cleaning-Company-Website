@@ -1,3 +1,7 @@
+* {
+     font-family: sans-serif;
+}
+
 body, html {
     margin: 0;
     padding 0;
@@ -9,4 +13,17 @@ body, html {
 *::before,
 *::after {
     box-sizing: inherit;
+}
+
+nav {
+     border: 3px solid black;
+    padding: 3%;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+    list-style-type: none;
+  text-align: right;
 }

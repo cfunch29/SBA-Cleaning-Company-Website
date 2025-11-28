@@ -39,12 +39,12 @@ h1 {
    justify-content: center;
 }
 .container1 {
-    height: 10%;
     width: 35%;
    color: blue;
     text-align: center;
 }
 
 .container {
+    height: 30%;
     border: solid black;
 }
