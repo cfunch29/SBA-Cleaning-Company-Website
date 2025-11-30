@@ -16,7 +16,8 @@ Really want to have the ability to create these sites myself from scratch since 
 ### Acknowledgements/Citations
 ---
 * Google Icons [Google Icons] (https://fonts.google.com/icons)
-* 
+* Pexels [Pexels Stock Pictures & Videos] (https://www.pexels.com)
+
 
 ### Reflection
 ---
