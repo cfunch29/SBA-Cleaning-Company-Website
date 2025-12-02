@@ -47,7 +47,7 @@ nav a:hover {
 }
 
 
-h1 {
+h1, h2 {
     float: auto;
     padding: 5%;
     display: flex;
@@ -67,6 +67,8 @@ h1 {
     height: 100vh;
     color: blue;
 }
+
+
 .container2 {
     max-width: 30%;
     height: 100%;
@@ -82,5 +84,34 @@ h1 {
     display: inline-block;
     border-radius: 4px;
     background-color: bisque;
-    padding: 0.2em 2em;
-    color: blue}
+    padding: .5em 2em;
+    margin: .5% ;
+    color: blue;
+    box-shadow: 0 3px 3px rgba(128, 128, 128, 0.491);
+}
+
+    .cta-button:hover {
+    text-decoration: underline;
+    color: white;
+}
+.services {
+    color: blue;
+}
+
+table {
+    color: gray;
+  border-collapse: collapse;
+  width: 100%;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: coral;}

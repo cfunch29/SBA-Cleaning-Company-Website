@@ -7,7 +7,7 @@ Recreating a website I previously made in wix and canva for my uncle [MSW Janito
 
 Really want to have the ability to create these sites myself from scratch since all the other platforms charge a premium to host and connect your domain. I enjoy making websites and really want to enhance my skill level.
 
-### Technologies used 
+### Technologies Used 
 ---
 * HTML
 * CSS
