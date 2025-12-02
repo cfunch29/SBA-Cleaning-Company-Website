@@ -2,10 +2,6 @@
     font-family: sans-serif;
 }
 
-body {
-    background-color:rgba(102, 233, 235, 0.856);
-}
-
 body,
 html {
     margin: 0;
@@ -26,6 +22,14 @@ nav {
     padding: 3%;
     background-color:bisque;
     color: cornflowerblue;
+}
+
+#logo {  
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+#logo:hover {
+    background-color:cornflowerblue;  
+  transform: rotate(360deg);
 }
 
 nav ul {
@@ -49,7 +53,6 @@ nav a:hover {
 
 h1, h2 {
     float: auto;
-    padding: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -88,11 +91,13 @@ h1, h2 {
     margin: .5% ;
     color: blue;
     box-shadow: 0 3px 3px rgba(128, 128, 128, 0.491);
+    transition: background-color 1s ease-out, transform 1s ease-out;
 }
 
     .cta-button:hover {
     text-decoration: underline;
     color: white;
+    transform: scale(1.1);
 }
 .services {
     color: blue;
@@ -102,6 +107,8 @@ table {
     color: gray;
   border-collapse: collapse;
   width: 100%;
+  margin: auto;
+  padding: 2%;
   display: block;
   display: flex;
   justify-content: center;
@@ -114,4 +121,13 @@ th, td {
   border-bottom: 1px solid #ddd;
 }
 
-tr:hover {background-color: coral;}
+tr:hover {
+    background-color: coral;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 8px;
+  text-align: center;
+}
+
