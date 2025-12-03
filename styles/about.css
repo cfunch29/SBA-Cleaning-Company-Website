@@ -29,10 +29,12 @@ nav {
     color: cornflowerblue;
 }
 
+/* CSS transition */
 #logo {
     transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
+/* CSS transition */
 #logo:hover {
     background-color: cornflowerblue;
     transform: rotate(360deg);
@@ -56,6 +58,7 @@ nav a:hover {
     color: white;
 }
 
+/* gif */
 #gif {
     margin: auto;
     width: 10%;
