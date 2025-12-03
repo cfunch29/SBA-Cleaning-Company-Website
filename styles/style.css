@@ -75,10 +75,18 @@ h2 {
 
 
 .container2 {
+    margin: auto;
     max-width: 30%;
     height: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.herovideo{
+    margin: auto;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -87,7 +95,7 @@ h2 {
 
 .cta-button {
     text-decoration: none;
-    display: inline-block;
+    display:flex;
     border-radius: 4px;
     background-color: bisque;
     padding: .5em 2em;
@@ -135,3 +143,7 @@ footer {
     padding: 8px;
     text-align: center;
 }
+
+
+
+
