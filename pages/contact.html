@@ -1,42 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 
     <!-- Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
-    rel="stylesheet" 
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
-    crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <!-- Linking external style sheet -->
     <link rel="stylesheet" href="../styles/contact.css">
-    
+
     <!-- Bootstrap script with defer -->
-     <script 
-    defer 
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
-    crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 
 
 </head>
+
 <body>
-        <section>
+    <section>
         <nav>
-            <img src="../images/cleaning bucket.png" alt="Logo"> Cleaning Company
-        <ul>
-            <li> <a href="../index.html" target="_self"> home </a></li>
-            <li> <a href="../pages/about.html" target="_self">about </a></li>
-            <li> <a href="../pages/contact.html" target="_self">contact</a></li>
-        </ul>
+            <img id="logo" src="../images/cleaning bucket.png" alt="Logo"> Cleaning Company
+            <ul>
+                <li> <a href="../index.html" target="_self"> home </a></li>
+                <li> <a href="../pages/about.html" target="_self">about </a></li>
+                <li> <a href="../pages/contact.html" target="_self">contact</a></li>
+            </ul>
         </nav>
-         <div class="Header">
+        <div class="Header">
             <!-- Inline style for Header -->
             <h1 style="color: rgba(0, 153, 255, 0.928);"></h1>
         </div>
-    
+
+                <form>
+                <fieldset>
+               <legend>Quote Request</legend>
+                <label>First Name
+                    <input type="text" id="FirstName" placeholder="Enter your First Name" required />
+                </label>
+                <br>
+                <label>Last Name
+                    <input type="text" id="LastName" placeholder="Enter your Last Name" required />
+                </label>
+                <br>
+                <label>Email
+                    <input type="text" id="Email" placeholder="Enter your Email" required />
+                </label>
+                <br>
+                <label>Phone
+                    <input type="text" id="Phone" placeholder="Enter Phone Number" required />
+                </label>
+
+                <br>
+
+                <label>Rooms</label>
+                <label>1
+                    <input type="radio" name="rooms" id="radio1" />
+                </label>
+                <label>2
+                    <input type="radio" name="rooms" id="radio2" />
+                </label>
+                <label>3+
+                    <input type="radio" name="rooms" id="radio2" />
+                </label>
+
+                <br>
+                <label for="cleaning">Choose cleaning service:</label>
+                <select id="cleaning" name="services">
+                    <option value="BusinessSuite">Business Suite</option>
+                    <option value="Warehouse">Warehouse</option>
+                    <option value="Office">Office</option>
+                    <option value="Specialty">Specialty</option>
+                </select>
+                <br>
+                <input type="submit" value="Submit Quote Request">
+     </fieldset>
+     </form>
+       <br>
 </body>
+
 </html>

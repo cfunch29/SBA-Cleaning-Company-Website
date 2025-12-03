@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color:rgba(102, 233, 235, 0.856);
+    background-color: rgba(102, 233, 235, 0.856);
 }
 
 body,
@@ -24,8 +24,17 @@ html {
 nav {
     border: 3px solid black;
     padding: 3%;
-    background-color:bisque;
+    background-color: bisque;
     color: cornflowerblue;
+}
+
+#logo {
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+#logo:hover {
+    background-color: cornflowerblue;
+    transform: rotate(360deg);
 }
 
 nav ul {
@@ -45,3 +54,103 @@ nav a:hover {
     text-decoration: underline;
     color: white;
 }
+
+#gif {
+    margin: auto;
+    width: 10%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.AboutCompany {
+    margin: auto;
+    padding: 1%;
+    max-width: 200%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Slogan {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    margin: auto;
+    max-width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.pushbroom {
+    margin: auto;
+    max-width: 90%;
+    max-height: 90%;
+    border: solid white;
+    border-width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    max-width: 850px;
+    padding: 2%;
+    margin: auto;
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(23, 2, 2, 0.553);
+}
+
+.img-container {
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heading {
+    margin: 10px 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    margin-bottom: 20px;
+    padding: 1%;
+}
+
+form {
+    border: solid black;
+    margin: 10%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+legend {
+   color: blue;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 8px;
+  text-align: center;
+}
+
+
